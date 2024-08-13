@@ -1,0 +1,6 @@
+https://matheuskiel.medium.com/how-do-streams-work-in-node-js-e9b535e6d90a
+
+Node.js streams are a powerful feature that allows you to efficiently handle data flow in a non-blocking manner. Streams in Node.js are built-in objects that enable you to read from or write to a source incrementally, in small chunks, instead of loading the entire data into memory at once.
+
+clusters
+https://medium.com/tech-tajawal/clustering-in-nodejs-utilizing-multiple-processor-cores-75d78aeb0f4f
