@@ -64,3 +64,21 @@ import inquirer from "inquirer"
 // uploadUsers()
 // console.log("third")
 
+var num: number = 10;
+let userName: string = "Naveed Sarwar";
+let isCompleted: boolean = false;
+let isNull: null = null;
+let isUndefined: undefined = undefined;
+let isVoid: void = undefined;
+
+let isAny: any = 'anything'
+isAny = 12;
+isAny = false;
+
+let isUnknown: unknown = 'string';
+isUnknown = false;
+
+console.log("isUnknown", isUnknown);
+function returnError(): never {
+    throw new Error("error");
+}

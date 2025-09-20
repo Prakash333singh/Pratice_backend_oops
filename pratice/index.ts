@@ -1,3 +1,28 @@
+// types
+
+// object
+// let student1: {
+//     name: string,
+//     email: string,
+//     phone: number
+// } = {
+//     name: "naveed",
+//     email: "naveed@sarwar",
+//     phone: 123
+// }
+
+///arrray
+// let data: number[] = [1, 2, 3, 3, 4, 6, 5];
+// let datastring: string[] = ["abc", "bcc", "nabab"];
+
+//tuple
+// let tuple: [string, number, boolean] = ["naveed", 123, true];
+
+
+//union
+// let num2: number | null = null;
+
+
 // let userName: string = "Prakash";
 // let userNameArray: string[] = ["umar", "neetu", "rahul"]
 
@@ -66,3 +91,20 @@
 //     console.log(car)
 //     console.log(`Color:${cars[i].color},Company:${cars[i].company}`)
 // }
+
+// type ContactForm = {
+//     name: string,
+//     email: string,
+//     buget: number,
+//     // message?: string
+//     message: string | null
+// }
+
+// let newContact: ContactForm = {
+//     name: "Naveed Sarwar",
+//     email: "naveed@sarwar",
+//     buget: 1000,
+//     message: null
+// }
+
+// console.log(newContact.message)

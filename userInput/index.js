@@ -22,7 +22,7 @@
 // var sum: number = add(10, 20);
 console.log("first");
 async function uploadUsers() {
-    console.log("second");
+  console.log("second");
 }
 uploadUsers();
 console.log("third");
